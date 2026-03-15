@@ -1,0 +1,87 @@
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+RPF/
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Backend runtime data
+# ==============================
+backend/uploads/
+uploads/
+
+# If you later add local vector DB storage
+chroma_db/
+backend/chroma_db/
+
+# ==============================
+# Node / Frontend (Vite)
+# ==============================
+node_modules/
+**/node_modules/
+
+dist/
+**/dist/
+
+.vite/
+**/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Env files / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# ==============================
+# Docker
+# ==============================
+*.log
+
+# Compose overrides / local-only
+docker-compose.override.yml
+
